@@ -8,9 +8,6 @@ trigger:
   - script: echo Hello, world!
     displayName: 'Run a one-line script'
   
-  - script: ls -alF
-    displayName: 'Simple run list directory'
-
   - script: |
       echo Add other tasks to build, test, and deploy your project.
       echo See https://aka.ms/yaml
